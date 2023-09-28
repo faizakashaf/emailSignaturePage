@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Outfit', sans-serif;
+  font-size: 62.5%; /* 1rem = 10px */
+  overflow-x: hidden;
+}
+:root {
+  --color-primary: #e45f2b;
+  --color-secondary: #3f5b63;
+  --color-secondary-light: #7f8a8d;
+  --color-tertiary: #8a939f;
+  --color-black: black;
+}
+#signature-start {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2rem 2rem;
+  color: var(--color-tertiary);
+}
+
+img {
+  width: 30rem;
+  height: 8rem;
+  margin-right: 2rem;
+}
+.line {
+  width: 0.1rem;
+  height: 5rem;
+  border-left: 2px solid var(--color-black);
+}
+.emailtext {
+  width: 100%;
+  padding-left: 2.5rem;
+  line-height: 2.8rem;
+}
+.emailtext,
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  font-family: inherit;
+}
+.emailtext,
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  font-family: inherit;
+}
+.inline {
+  display: inline;
+  color: var(--color-tertiary);
+  font-weight: 500;
+}
+.prim-color {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.address {
+  font-style: normal;
+}
+.emailtext,
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-family: inherit;
+}
+.description {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--color-tertiary);
+  font-family: inherit;
+  margin: auto 2rem;
+}
+
+.para-web-link {
+  color: var(--color-tertiary);
+  font-weight: bold;
+  text-decoration: underline;
+}
+.email-signature {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 5rem 2rem;
+}
